@@ -28,16 +28,16 @@ body{
 }
 
 #min {
-    height: 33%;
+    height: 40%;
     width: 1%;
-    top: 17%;
+    top: 10%;
     left: 49.5%;
 }
 
 #sec {
     background-color: red;
-    height: 35%;
+    height: 33%;
     width: 0.5%;
-    top: 15%;
+    top: 17%;
     left: 49.78%;
 }
