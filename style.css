@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    background: url(Clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #min, #sec {
+    position: absolute;
+    background: #000;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    height: 23%;
+    width: 1.5%;
+    top: 27%;
+    left: 49.3%;
+}
+
+#min {
+    height: 33%;
+    width: 1%;
+    top: 17%;
+    left: 49.5%;
+}
+
+#sec {
+    background-color: red;
+    height: 35%;
+    width: 0.5%;
+    top: 15%;
+    left: 49.78%;
+}
